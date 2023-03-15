@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
 import SearchBtn from './components/SearchTabs/SearchBtn';
 import Navbar from './components/NavTabs/Navbar';
@@ -25,13 +25,13 @@ fetch('https://api-gate2.movieglu.com/filmLiveSearch/?query=max&n=6', {
 
 function App() {
 
-  const [cinema, setCinema] =useState({name:'', location:''})
+  // const [cinema, setCinema] =useState({name:'', location:''})
 
   return (
     <div>
       <Navbar/>
      <SearchBtn/>
-        {<h1>{cinema.name}</h1>}
+        
     </div>
   );
 }

@@ -6,7 +6,7 @@ import SearchInfo from "./components/SearchTabs/SearchHistory";
 import GeoLoc from "./components/MapTab/MapSearch";
 
 
-function App(props) {
+function App() {
   const [movie, setMovie] = useState();
 
   const searchMovie = useCallback(() => {

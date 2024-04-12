@@ -62,7 +62,7 @@ This project is covered by _MIT._
 
 - https://developer.movieglu.com/api-index/cinemasnearby/ 
 
-- https://www.omdb.com/?ref_=nv_home 
+- https://www.omdbapi.com/ 
 
 - https://openweathermap.org/api 
 
